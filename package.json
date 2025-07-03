@@ -1,0 +1,31 @@
+{
+  "name": "blog-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP 서버 - 블로그 글감 정리 및 민감 정보 마스킹",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "blog",
+    "typescript",
+    "n8n",
+    "webhook"
+  ]
+}
